@@ -15,3 +15,6 @@ const conta2 = new ContaCorrente(102, cliente2);
 let valor = 100;//primitivos copiam seus valores;
 //copia eu valor pra dentri de um método 
 contaCorrenteErick.transferir(valor, conta2);
+
+console.log(contaCorrenteErick);
+console.log("\n", ContaCorrente.numeroDeContas)
